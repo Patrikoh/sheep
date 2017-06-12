@@ -1,0 +1,24 @@
+.popup-overlay {
+
+}
+
+.sheep-info-top {
+        position: absolute;
+        z-index: 2;
+        display: flex;
+}
+
+.sheep-info {
+        padding: 20px;
+        flex: 0;
+}
+
+.arrow {
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-bottom: 20px solid #fff;
+  position: absolute;
+  z-index: 4;
+}

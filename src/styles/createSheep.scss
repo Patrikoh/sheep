@@ -1,0 +1,88 @@
+.create-sheep-top {
+        margin-top: auto;
+        width: 100%;
+        flex: 1;
+}
+
+.create-sheep__top-menu {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+}
+
+.create-sheep-top__paper {
+
+}
+
+.create-sheep__form {
+        height: auto;
+        padding: 30px;
+        flex-grow: 1;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+}
+.create-sheep__form-column {
+        padding-left: 10px;
+        padding-right: 10px;
+        display: flex;
+        flex-direction: column;
+        flex-grow: 1;
+}
+
+.create-sheep__form-column--last {
+        margin-left: 100px;
+        max-width: 500px;
+        padding: 0px;
+}
+
+
+.create.sheep__form-column--advanced {
+        border-left: thick solid #ff0000;
+        padding-left: 20px;
+}
+
+.row {
+        display: flex;
+        flex-direction: row;
+}
+.column {
+        display: flex;
+        flex-direction: column;
+}
+
+.create-sheep__form__input {
+        padding-left: 10px;
+        padding-right: 10px;
+        flex-grow: 0;
+}
+
+.create-sheep__form__button {
+        flex-grow: 1;
+}
+.create-sheep__form__button--advanced {
+        padding-top: 20px;
+}
+
+.advanced-toggle {
+        width: 15% !important;
+        padding: 10px;
+        text-align: left;
+        flex-grow: 0;
+}
+
+.sheep-list {
+        padding-left: 20px;
+}
+.sheep-list-header {
+        padding-left: 20px;
+        background-color: #3f3b4c;
+        h3 {
+                color: #fff;
+        }
+}
+
+.disabled {
+        display: none;
+}
